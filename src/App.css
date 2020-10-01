@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 100px;
+}
+
+.App input {
+  display: none;
+}
+
+.App label {
+  font-size: 16px;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  color: #eee;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.App button {
+  height: 40px;
+  margin: 20px 0;
+}
+
+.App label:hover {
+  background-color: #00f7;
+}
+
+.App div {
+  text-align: left;
+}
+
+.App textarea {
+  height: 400px;
+}
+
+.App h3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #222;
+  background-color: #fff7;
+}
+
+.App .content {
+  width: 100%;
+}
+
+.App .content textarea {
+  width: 100%;
+}
